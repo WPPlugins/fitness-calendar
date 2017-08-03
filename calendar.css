@@ -1,0 +1,238 @@
+#current-page-selector { width:50px !important;}
+
+#day{ width:7% !important;}
+
+#week{ width:7%;}
+
+#month{width:10%;}
+
+
+#video_title{ width:25%;}
+
+#subtitle{ width:20%;}
+
+
+
+.video iframe  { width:200px; height:120px;}
+
+label {
+
+    display: block;
+
+    margin: 0px;
+
+}
+
+label>span {
+
+    float: left;
+
+    width: 20%;
+
+    text-align: right;
+
+    padding-right: 10px;
+
+    margin-top: 10px;
+
+    color: #888;
+
+	font-size:medium;
+
+}
+
+#select{ height:40px; width:20%;}
+
+#day { width:20%;}
+
+input[type="text"],  textarea, select {
+
+    border: 1px solid #DADADA;
+
+    color: #888;
+
+    height: 30px;
+
+    margin-bottom: 5px;
+
+    margin-right: 6px;
+
+    margin-top: 2px;
+
+    outline: 0 none;
+
+    padding: 3px 3px 3px 5px;
+
+    width: 50%;
+
+    font-size: 18px;
+
+    line-height:15px;
+
+    box-shadow: inset 0px 1px 4px #ECECEC;
+
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+
+}
+
+textarea{
+
+    padding: 5px 3px 3px 5px;
+
+	 height:100px;
+
+}
+
+.submit_button {
+
+	height:50px ;
+
+	padding-left:50px;
+
+	padding: 0 65px 1px;
+
+	border-radius: 15px;
+
+  	font-size: 20px ;
+
+	background-color:#cb4e4e;
+
+}
+
+ .submit_button:hover {
+
+    background: #CF7A7A
+
+	}
+
+	
+
+.calendar-row {
+
+    height: 120px;
+	display:inline-table;
+
+}
+
+.calendar-row td {
+
+	border:solid 1px !important;
+	width:200px;
+	
+
+}
+
+.pager {padding-left: 0;
+
+    text-align: center;
+
+}
+
+.pager li {
+
+    display: inline;
+	margin:7px;
+
+}
+
+.pager li > a, .pager li > span {
+
+    background:#ed1c24 none repeat scroll 0 0;
+
+    display: inline-block;
+
+	border-radius: 5px;
+    color: #fff;
+    padding: 11px 12px;
+
+}
+
+#calendar_extra_videos { width:250px; 
+
+    background: #ed1c24 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 12px;
+	margin:20px 20px 20px 0;
+	font-size:16px;
+
+}
+
+.cellDayNumber {
+    font-size: 3.5em; 
+	 font-weight: bold;
+    left: 0;
+    padding: 10px 0 0 5px;
+    top: 10px;
+}
+.calendar-day-active {
+background: transparent none repeat scroll 0 0;
+    display: block;
+    font-weight: 800;
+    height: 40px;
+    line-height: 14px;
+    text-transform: uppercase;
+    width: auto;
+	margin-top: 20px;
+}
+.dayCell {
+
+    height: 100%;
+    width: 100%;
+}
+
+#calendar_description { width:250px;        background: #ed1c24 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 12px;
+	margin:20px 20px 20px 0;
+	font-size:16px;
+
+
+
+}
+.page-id-443 h1 { display:none;}
+.calendar_equipment { width:49%;}
+
+.calendar_rest_time { width:49%;}
+
+.calendar_extra_video2 , .calendar_extra_video1 , .calendar_extra_video3 , .calendar_extra_video4 , .calendar_extra_video5 , .calendar_extra_video6 , .calendar_extra_video7{ display:inline-block; z-index: 9999; position:relative;}
+
+.video_iframe { display:inline-block; z-index: -500 ; position:relative;}
+
+#iframe { display:inline-block; z-index: 10; position:relative;}
+
+.calendar_equipment { float:left;}
+
+.calendar_rest_time { float:left; margin-left:20px;}
+
+.extra_video_data { float:left;}
+
+.section_below_video { display:inline-block; width:100%; margin-top:15px;}
+
+.calendar_button{ display:block; clear: left; margin:20px 0 20px;}
+
+.video_data { display:inline-block; margin-left:20px;}
+
+.extra_vid { width:auto; border:10px solid #999999; border-radius:5px; padding:20px 10px 10px; 20px; background-color:#FFFFFF; margin-top:10px; margin-bottom:10px;}
+
+*/.calendar_main_div{ display:block; border:5px solid; border-radius:5px; padding:10px;}
+
+.calendar_main_div_1 { border:10px solid #999999; border-radius:5px; padding:20px 10px 10px 20px; background-color:#FFFFFF; }
+
+
+.calendar_main_div_2 { border:10px solid #999999; border-radius:5px;  background-color:#FFFFFF; margin-top:10px;}
+
+.video_description { border:10px solid #999999; border-radius:5px; padding:20px 0 0 20px; background-color:#FFFFFF; margin-top:10px;}
+
+#mark_completed { height:80px; font-size:18px; }
+@media screen and (max-width: 400px){ 
+#frmcalendar ul{ margin:0px ; } 
+#post-443 .post-content { padding: 26px 10px;}
+.calendar-row td { display:block;}
+.calendar-row{ text-align:center;}
+}
